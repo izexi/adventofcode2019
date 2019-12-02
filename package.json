@@ -1,0 +1,27 @@
+{
+  "name": "adventofcode2019",
+  "version": "1.0.0",
+  "description": "https://adventofcode.com/2019",
+  "main": "dist/index.js",
+  "scripts": { "start": "rimraf dist && tsc && node ." },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izexi/adventofcode2019.git"
+  },
+  "author": "izexi",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
+    "eslint": "^6.7.2",
+    "eslint-config-marine": "^5.3.2",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.2"
+  },
+  "eslintConfig": {
+    "extends": "marine/node",
+    "parserOptions": {
+      "project": "tsconfig.eslint.json"
+    }
+  }
+}
