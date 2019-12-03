@@ -5,4 +5,4 @@ const calculateFuel = (mass: number): number => {
 	return calculated > 0 ? calculateFuel(calculated) + calculated : 0;
 };
 
-export default input.reduce((total, curr) => total + calculateFuel(curr), 0);
+export default input.map(Number).reduce((total, curr) => total + calculateFuel(curr), 0);

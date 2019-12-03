@@ -1,6 +1,6 @@
 import input from '../util/parseInput';
 
-const data = input.slice();
+const data = input.slice().map(Number);
 data[1] = 12;
 data[2] = 2;
 
